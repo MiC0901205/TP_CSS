@@ -4,38 +4,41 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-  }
-  
-  nav {
+}
+
+nav {
     background: #33A4E5;
     width: 100%;
-  }
-  
-  label.logo {
+}
+
+label.logo {
     color: #FFFFFF;
     font-size: 35px;
     line-height: 80px;
     padding: 0 1rem;
     font-weight: bold;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     float: right;
     margin-right: 20px;
-  }
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-  }
-  nav ul li a {
+}
+
+nav ul li a {
     color: white;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
-  }
-  .checkbtn {
+}
+
+.checkbtn {
     font-size: 30px;
     color: white;
     float: right;
@@ -43,99 +46,100 @@
     margin-right: 40px;
     cursor: pointer;
     display: none;
-  }
-  #check {
+}
+
+#check {
     display: none;
-  }
-  
-  @media (max-width: 850px) {
+}
+
+@media (max-width: 850px) {
     .checkbtn {
-      display: block;
+        display: block;
     }
     ul {
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #202020;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #202020;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
     }
     nav ul li {
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
     }
     nav ul li a {
-      font-size: 20px;
+        font-size: 20px;
     }
     #check:checked ~ ul {
-      left: 0;
+        left: 0;
     }
-  }
+}
 
-  .image-text {
+.image-text {
     position: relative;
-  }
-  
-  .image-text img {
+}
+
+.image-text img {
     width: 1500px;
     height: 250px;
     height: auto;
     margin-left: 150px;
     display: block;
-  }
-  
-  .text-overlay {
+}
+
+.text-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: blue;
     text-align: center;
-  }
-  
-  .text-overlay h1 {
-    font-size: 2em;
-  }
-  
-  .text-overlay p {
-    font-size: 1em;
-  }
+}
 
-  .cards-container {
+.text-overlay h1 {
+    font-size: 2em;
+}
+
+.text-overlay p {
+    font-size: 1em;
+}
+
+.cards-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  
-  .card {
+}
+
+.card {
     width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     margin: 10px;
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 100%;
     height: 50%;
-  }
-  
-  .card-content {
+}
+
+.card-content {
     padding: 20px;
-  }
-  
-  .card-content h3 {
+}
+
+.card-content h3 {
     margin-top: 0;
-  }
-  
-  .card-content p {
+}
+
+.card-content p {
     margin-bottom: 10px;
-  }
-  
-  .card-content a {
+}
+
+.card-content a {
     display: block;
     text-align: center;
     background-color: #007bff;
@@ -143,38 +147,38 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-  }
-  
-  .card-content a:hover {
-    background-color: #0056b3;
-  }
+}
 
-  .image-description {
+.card-content a:hover {
+    background-color: #0056b3;
+}
+
+.image-description {
     display: flex;
     align-items: center;
     margin: 20px;
-  }
-  
-  .image-description img {
+}
+
+.image-description img {
     flex: 0 0 auto;
     margin-right: 20px;
-  }
-  
-  .description {
-    flex: 1;
-  }
-  
-  .description h2 {
-    margin-top: 0;
-  }
+}
 
-  body {
+.description {
+    flex: 1;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -182,8 +186,30 @@
     bottom: 0;
     width: 100%;
     margin-top: 20px;
-  }
-  /* Styles pour la citation */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
 .citation {
     color: #589133;
     margin: 0 auto;
